@@ -1,0 +1,16 @@
+{
+  "name": "test-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@crispy/test": "file:../test"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
