@@ -2,8 +2,8 @@
   "name": "@crispy/test",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -14,11 +14,10 @@
   },
 
   "exports": {
-    ".": "./lib/index.js",
-    "./alpha": "./lib/alpha/index.js",
-    "./alpha/*": "./lib/alpha/*.js"
+    ".": "./dist/index.js",
+    "./alpha": "./dist/alpha/index.js",
+    "./alpha/*": "./dist/alpha/*.js"
 
   }
-
   
 }
